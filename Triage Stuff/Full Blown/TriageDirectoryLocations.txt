@@ -1,0 +1,11 @@
+$Extend
+$Recycle.Bin
+Logs
+Users
+Windows\Prefetch
+Windows\System32\config\RegBack
+Windows\System32\LogFiles
+Windows\System32\sru
+Windows\System32\winevt\Logs
+Windows\System32\tasks
+Windows\System32\wbem

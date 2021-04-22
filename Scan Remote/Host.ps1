@@ -1,8 +1,8 @@
 ﻿## Send this to the remote systems to run                ##
 ## This will only send out if the ransomware is detected ##
+## Use in conjunction with Server.ps1					 ##
 
-
-$filename = "RECOVER-FILES.txt"
+$filename = "" # File to scan remote host for
 
 $malware = Get-ChildItem -Path $env:HOMEDRIVE\Users -Filter $filename -Recurse -ErrorAction SilentlyContinue | %{$_.FullName}
 
@@ -17,7 +17,7 @@ if ($malware){
 	$infoToSend = "$env:COMPUTERNAME | $($ipv4) | $($osVersion)"
 
 	# Configuration for ICMP requests
-	$IPAddress = "192.168.1.54"
+	$IPAddress = "" # Add IP address to ping
 	$ICMPClient = New-Object System.Net.NetworkInformation.Ping
 	$PingOptions = New-Object System.Net.NetworkInformation.PingOptions
 	$PingOptions.DontFragment = $true

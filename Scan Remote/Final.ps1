@@ -1,5 +1,7 @@
 # Configuration for ICMP requests
-$IPAddress = "192.168.1.54"
+# Test file, not used
+
+$IPAddress = "" # Add IP address to ping
 $ICMPClient = New-Object System.Net.NetworkInformation.Ping
 $PingOptions = New-Object System.Net.NetworkInformation.PingOptions
 $PingOptions.DontFragment = $true

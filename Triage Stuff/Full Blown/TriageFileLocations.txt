@@ -1,0 +1,13 @@
+$LogFile
+$MFT
+hiberfil.sys
+pagefile.sys
+swapfile.sys
+Windows\appcompat\Programs\Amcache.hve
+Windows\INF\setupapi.dev.log
+ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.edb
+Windows\System32\config\DEFAULT
+Windows\System32\config\SAM
+Windows\System32\config\SECURITY
+Windows\System32\config\SOFTWARE
+Windows\System32\config\SYSTEM

@@ -1,5 +1,7 @@
 ﻿## Server Listener to listen for hosts responding  ##
 
+## Use in conjunction with Host.ps1                ##
+
 $Outfile = "C:\ListOfSystems.txt"
 $IP = "192.168.1.54"
 
